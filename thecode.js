@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         Discord Trackn't
+// @namespace    http://tampermonkey.net/
+// @version      1
+// @description  Removes Discord plugins that track analytics and other interactions
+// @author       Spinfal
+// @match        https://discord.com/activ*
+// @match        https://discord.com/channel*
+// @match        https://discord.com/app
+// @grant        none
+// @run-at       document-start
+// ==/UserScript==
+
 (function () {
    'use strict';
 
